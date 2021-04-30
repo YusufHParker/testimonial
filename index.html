@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testimonials</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <!-- Set up your HTML -->
+    <div class="owl-carousel">
+      <div class="test">
+        <img
+          src="./images/pubg-profile-pic.png"
+          alt="Profile Pic"
+          style="width: 150px; height: 150px"
+          class="image"
+        />
+        <div class="item">
+          <h3>Name-1</h3>
+          <h5>Title</h5>
+          <q>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            ipsa dolorum debitis expedita id? Nihil, nisi voluptas? Quasi
+            delectus laudantium cum repellendus, neque tempore, ratione minus
+            voluptatem rerum sit earum.
+          </q>
+        </div>
+      </div>
+
+      <div class="test">
+        <img
+          src="./images/pubg-profile-pic.png"
+          alt="Profile Photo"
+          style="width: 150px; height: 150px"
+          class="image"
+        />
+        <div class="item">
+          <h3>Name-2</h3>
+          <h5>Title</h5>
+          <q>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos
+            consectetur distinctio voluptates temporibus, hic quod illo,
+            sapiente cumque ducimus veritatis obcaecati ut iusto explicabo
+            impedit accusamus. Quibusdam porro saepe laborum.
+          </q>
+        </div>
+      </div>
+      <div class="test">
+        <img
+          src="./images/pubg-profile-pic.png"
+          alt="Profile Photo"
+          style="width: 150px; height: 150px"
+          class="image"
+        />
+        <div class="item">
+          <h3>Name-3</h3>
+          <h5>Title</h5>
+          <q>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            ipsa dolorum debitis expedita id? Nihil, nisi voluptas? Quasi
+            delectus laudantium cum repellendus, neque tempore, ratione minus
+            voluptatem rerum sit earum.
+          </q>
+        </div>
+      </div>
+    </div>
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          dots: false,
+          autoplay: true,
+          responsive: {
+            0: { items: 1, margin: 0, stagePadding: 0 },
+            500: {
+              items: 1,
+              margin: 50,
+              stagePadding: 100,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
